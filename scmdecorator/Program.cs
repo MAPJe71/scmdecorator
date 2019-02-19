@@ -27,9 +27,11 @@ namespace scmdecorator
         private static readonly List<ScmInfo> ScmInfos =
             new List<ScmInfo>
                 {
-                    new ScmInfo { Name = "Subversion", Folder = ".svn", Icon = "svn.ico" },
-                    new ScmInfo { Name = "Git", Folder = ".git", Icon = "git.ico" },
-                    new ScmInfo { Name = "Mercurial", Folder = ".hg", Icon = "mercurial.ico" }
+                    new ScmInfo { Name = "Bazaar"            , Folder = ".bzr", Icon = "folder-bazaar.ico" },
+                    new ScmInfo { Name = "Git"               , Folder = ".git", Icon = "folder-git.ico" },
+                    new ScmInfo { Name = "Mercurial"         , Folder = ".hg" , Icon = "folder-mercurial.ico" },
+                    new ScmInfo { Name = "Subversion"        , Folder = ".svn", Icon = "folder-subversion.ico" },
+                    new ScmInfo { Name = "Visual Source Safe", Folder = ".vss", Icon = "folder-visualsourcesafe.ico" }
                 };
 
         static void Main(string[] args)

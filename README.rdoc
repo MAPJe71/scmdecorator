@@ -35,3 +35,4 @@ Development of this application was inspired by a response to one of my StackOve
 
 * StackOverflow question http://stackoverflow.com/questions/7659658/tortoisexxx-knowing-which-scm-software-is-used-in-a-specific-development-project
 
+* https://github.com/anders9ustafsson/scmdecorator
